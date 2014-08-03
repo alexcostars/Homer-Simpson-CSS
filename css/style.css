@@ -1,0 +1,600 @@
+body {
+    background-image: url('../img/background.jpg');
+}
+h1{
+    font-family: Satisfy, cursive;
+    font-weight:normal;
+    font-size:24px;
+    padding-top: 60px;
+}
+
+.seta {
+    -webkit-filter: sepia(100%);
+    -moz-filter: sepia(100%);
+    -ms-filter: sepia(100%);
+    -o-filter: sepia(100%);
+    filter: sepia(100%);
+}
+.seta:hover {
+    -webkit-filter: hue-rotate(20deg);
+    -moz-filter: hue-rotate(20deg);
+    -ms-filter: hue-rotate(20deg);
+    -o-filter: hue-rotate(20deg);
+    filter: hue-rotate(20deg);
+}
+.seta:active {
+    -webkit-filter: invert(100%);
+    -moz-filter: invert(100%);
+    -ms-filter: invert(100%);
+    -o-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.homer {
+    margin: auto;
+    width: 500px;
+    height: 600px;
+    position: relative;
+}
+
+.homer div {
+    position: absolute;
+}
+
+.circulo {
+    -moz-border-radius: 10000px;
+    -webkit-border-radius: 10000px;
+    border-radius: 10000px;
+}
+
+.cabeca {
+    /* define a cor */
+    background: #FCDB00;
+    
+    /*define o tamanho do quadrado*/
+    width: 200px;
+    height: 170px;
+    /*distancia do topo*/
+    top: 85px;
+    left: 140px;
+    
+    /*tira a parte de baixo / corta a imagem */
+    border-bottom: 0px;
+    /*coloca a borda em cima e nos lados*/
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    /*arredonda a parte de cima*/
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
+    
+    /*roda a imagem*/
+    -o-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+}
+
+.sombrancelha {
+    /* define a cor */
+    background: #FCDB00;
+    
+    /*define o tamanho do quadrado*/
+    width: 30px;
+    height: 15px;
+    /*distancia do topo*/
+    top: 200px;
+    left: 345px;
+    
+    /*tira a parte de baixo / corta a imagem */
+    border-bottom: 0px;
+    /*coloca a borda em cima*/
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    /*arredonda a parte de cima*/
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
+    
+    /*roda a imagem*/
+    -o-transform: rotate(70deg);
+    -moz-transform: rotate(70deg);
+    -webkit-transform: rotate(70deg);
+}
+
+.nariz {
+    /* define a cor */
+    background: #FCDB00;
+    
+    /*define o tamanho do quadrado*/
+    width: 80px;
+    height: 40px;
+    /*distancia do topo*/
+    top: 275px;
+    left: 275px;
+    
+    /*deixa os lados quadrados */
+    border-left: 0px;
+    /*coloca a borda do lado direito*/
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    /*arredonda a parte de cima*/
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+
+.olho_camada_1 {
+    background: white;
+    width: 100px;
+    height: 100px;
+    top: 200px;
+    
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+}
+
+.olho_esquerdo_camada_1 {
+    left: 200px;
+}
+
+.olho_direito_camada_1 {
+    left: 270px;
+}
+
+.olho_camada_2 {
+    background: black;
+    width: 10px;
+    height: 10px;
+    top: 255px;
+}
+
+.olho_esquerdo_camada_2 {
+    left: 225px;
+}
+
+.olho_direito_camada_2 {
+    left: 330px;
+}
+
+.bochecha_camada_1 {
+    /* define a cor */
+    background: #CFAF70;
+    
+    /*define o tamanho do quadrado*/
+    width: 130px;
+    height: 130px;
+    /*distancia do topo*/
+    top: 320px;
+    left: 210px;
+    
+    /*coloca a borda*/
+    border: 5px solid black;
+    
+    /*border-radius: 500px;*/
+    -moz-border-radius: 800px / 700px; 
+    -webkit-border-radius: 800px / 700px; 
+    border-radius: 800px / 700px;
+}
+
+.bochecha_camada_2 {
+    /* define a cor */
+    background: #CFAF70;
+    
+    /*define o tamanho do quadrado*/
+    width: 40px;
+    height: 40px;
+    /*distancia do topo*/
+    top: 390px;
+    left: 305px;
+    
+    /*coloca a borda*/
+    border: 5px solid black;
+    
+    /*border-radius: 500px;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    */
+    border-radius: 200px;
+    /*roda a imagem*/
+    -o-transform: rotate(50deg);
+    -moz-transform: rotate(50deg);
+    -webkit-transform: rotate(50deg);
+}
+
+.boca {
+    /* define a cor */
+    background: #cfaf70;
+    
+    /*define o tamanho do quadrado*/
+    width: 135px;
+    height: 30px;
+    /*distancia do topo*/
+    top: 375px;
+    left: 245px;
+    
+    /*coloca a borda*/
+    border: 5px solid black;
+    
+    
+    /*border-radius: 500px;
+    border-radius: 800px / 400px;*/
+    
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    
+    /*roda a imagem
+    -o-transform: rotate(50deg);
+    -moz-transform: rotate(50deg);
+    -webkit-transform: rotate(50deg);*/
+}
+
+.bochecha_camada_3 {
+    /* define a cor */
+    background: #CFAF70;
+    
+    /*define o tamanho do quadrado*/
+    width: 100px;
+    height: 100px;
+    /*distancia do topo*/
+    top: 280px;
+    left: 275px;
+    
+    /*coloca a borda*/
+    border-left: 0px;
+    border-right: 5px solid black;
+    border-bottom: 0px;
+    border-top: 5px solid black;
+    
+    /*border-radius: 500px;*/
+    border-top-right-radius: 800px;
+    
+    /*roda a imagem
+    -o-transform: rotate(50deg);
+    -moz-transform: rotate(50deg);
+    -webkit-transform: rotate(50deg);*/
+}
+
+
+.bochecha_camada_4 {
+    /* define a cor */
+    background: #CFAF70;
+    
+    /*define o tamanho do quadrado*/
+    width: 60px;
+    height: 60px;
+    /*distancia do topo*/
+    top: 325px;
+    left: 275px;
+}
+
+.bochecha_camada_5 {
+    /* define a cor */
+    background: #CFAF70;
+    
+    /*define o tamanho do quadrado*/
+    width: 20px;
+    height: 70px;
+    /*distancia do topo*/
+    top: 340px;
+    left: 330px;
+}
+
+.bochecha_camada_6 {
+    /* define a cor */
+    background: #CFAF70;
+    
+    /*define o tamanho do quadrado*/
+    width: 135px;
+    height: 20px;
+    /*distancia do topo*/
+    top: 365px;
+    left: 235px;
+    
+    border-right: 5px solid #CFAF70;
+    border-top: 5px solid #CFAF70;
+    border-top-right-radius: 10px;
+}
+
+.bochecha_camada_7 {
+    /* define a cor */
+    background: #CFAF70;
+    
+    /*define o tamanho do quadrado*/
+    width: 20px;
+    height: 40px;
+    /*distancia do topo*/
+    top: 401px;
+    left: 305px;
+    
+    /*roda a imagem*/
+    -o-transform: rotate(-40deg);
+    -moz-transform: rotate(-40deg);
+    -webkit-transform: rotate(-40deg);
+}
+
+.orelha_camada_1 {
+    /* define a cor */
+    background: #FCDB00;
+    
+    /*define o tamanho do quadrado*/
+    width: 35px;
+    height: 40px;
+    /*distancia do topo*/
+    top: 280px;
+    left: 165px;
+    
+    /*coloca a borda em cima e nos lados*/
+    border: 5px solid black;
+    border-right: 0px;
+    /*arredonda a parte de cima*/
+    border-radius: 50%;
+    
+    /*roda a imagem*/
+    -o-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+}
+
+
+.orelha_camada_2 {
+    /* define a cor */
+    background: transparent;
+    
+    /*define o tamanho do quadrado*/
+    width: 25px;
+    height: 20px;
+    /*distancia do topo*/
+    top: 292px;
+    left: 173px;
+    
+    /*coloca a borda em cima e nos lados*/
+    border-top: 5px solid black;
+    /*arredonda a parte de cima*/
+    border-radius: 50%;
+    
+    /*roda a imagem*/
+    -o-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+}
+
+
+.orelha_camada_3 {
+    /* define a cor */
+    background: transparent;
+    
+    /*define o tamanho do quadrado*/
+    width: 20px;
+    height: 20px;
+    /*distancia do topo*/
+    top: 295px;
+    left: 179px;
+    
+    /*coloca a borda em cima e nos lados*/
+    border-top: 5px solid black;
+    /*arredonda a parte de cima*/
+    border-radius: 50%;
+    
+    /*roda a imagem*/
+    -o-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -webkit-transform: rotate(-60deg);
+}
+
+
+.pescoco_camada_1 {
+    /* define a cor */
+    background: #FCDB00;
+    
+    /*define o tamanho do quadrado*/
+    width: 100px;
+    height: 180px;
+    /*distancia do topo*/
+    top: 325px;
+    left: 165px;
+    
+    /*tira a parte de baixo / corta a imagem */
+    border-bottom: 0px;
+    border-top: 0px;
+    /*coloca a borda em cima e nos lados*/
+    border-left: 5px solid black;
+    border-right: 0px;
+    
+    /*roda a imagem*/
+    -o-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+}
+
+
+.pescoco_camada_2 {
+    /* define a cor */
+    background: #FCDB00;
+    
+    /*define o tamanho do quadrado*/
+    width: 100px;
+    height: 140px;
+    /*distancia do topo*/
+    top: 385px;
+    left: 185px;
+    
+    /*tira a parte de baixo / corta a imagem */
+    border-bottom: 0px;
+    border-top: 0px;
+    /*coloca a borda em cima e nos lados*/
+    border-left: 0px;
+    border-right: 5px solid black;
+    
+    /*roda a imagem*/
+    -o-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+}
+
+.preenchimento_1 {
+    /* define a cor */
+    background: #FCDB00;
+    
+    /*define o tamanho do quadrado*/
+    width: 100px;
+    height: 70px;
+    /*distancia do topo*/
+    top: 275px;
+    left: 195px;
+}
+
+
+.cova {
+    /* define a cor */
+    background: #CFAF70;
+    
+    /*define o tamanho do quadrado*/
+    width: 30px;
+    height: 30px;
+    /*distancia do topo*/
+    top: 379px;
+    left: 230px;
+    
+    border-bottom: 5px solid black;
+    border-top: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    
+    border-radius: 50%;
+  
+    /*roda a imagem*/
+    -o-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -webkit-transform: rotate(-60deg);
+}
+
+
+.cabelo_camada_1 {
+    /* define a cor */
+    background: transparent;
+    
+    /*define o tamanho do quadrado*/
+    width: 50px;
+    height: 5px;
+    /*distancia do topo*/
+    top: 260px;
+    left: 150px;
+    
+    border-top: 5px solid black;
+    
+    /*roda a imagem*/
+    -o-transform: rotate(-70deg);
+    -moz-transform: rotate(-70deg);
+    -webkit-transform: rotate(-70deg);
+}
+
+
+.cabelo_camada_2 {
+    /* define a cor */
+    background: transparent;
+    
+    /*define o tamanho do quadrado*/
+    width: 45px;
+    height: 5px;
+    /*distancia do topo*/
+    top: 257px;
+    left: 164px;
+    
+    border-top: 5px solid black;
+    
+    /*roda a imagem*/
+    -o-transform: rotate(70deg);
+    -moz-transform: rotate(70deg);
+    -webkit-transform: rotate(70deg);
+}
+
+
+.cabelo_camada_3 {
+    /* define a cor */
+    background: transparent;
+    
+    /*define o tamanho do quadrado*/
+    width: 50px;
+    height: 5px;
+    /*distancia do topo*/
+    top: 263px;
+    left: 126px;
+    
+    border-top: 5px solid black;
+    
+    /*roda a imagem*/
+    -o-transform: rotate(-80deg);
+    -moz-transform: rotate(-80deg);
+    -webkit-transform: rotate(-80deg);
+}
+
+
+.cabelo_camada_4 {
+    /* define a cor */
+    background: transparent;
+    
+    /*define o tamanho do quadrado*/
+    width: 45px;
+    height: 5px;
+    /*distancia do topo*/
+    top: 261px;
+    left: 133px;
+    
+    border-top: 5px solid black;
+    
+    /*roda a imagem*/
+    -o-transform: rotate(75deg);
+    -moz-transform: rotate(75deg);
+    -webkit-transform: rotate(75deg);
+}
+
+.cabelo_camada_5 {
+    /* define a cor */
+    background: transparent;
+    
+    /*define o tamanho do quadrado*/
+    width: 80px;
+    height: 80px;
+    /*distancia do topo*/
+    top: 60px;
+    left: 208px;
+    
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-radius: 50%;
+    
+    /*roda a imagem*/
+    -o-transform: rotate(35deg);
+    -moz-transform: rotate(35deg);
+    -webkit-transform: rotate(35deg);
+}
+
+
+.cabelo_camada_6 {
+    /* define a cor */
+    background: transparent;
+    
+    /*define o tamanho do quadrado*/
+    width: 80px;
+    height: 80px;
+    /*distancia do topo*/
+    top: 60px;
+    left: 178px;
+    
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-radius: 50%;
+    
+    /*roda a imagem*/
+    -o-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+}
